@@ -29,7 +29,8 @@ Semantic segmentation method for vehicles detection
 * python test_model.py
 
 # Result
-<img src="img/4.jpg" width="600">
-<img src="img/3.jpg" width="600">
-<img src="img/2.jpg" width="600">
+* 16 FPS on TITAN X (Pascal)
+<img src="img/4.jpg" width="800">
+<img src="img/3.jpg" width="800">
+<img src="img/2.jpg" width="800">
 
