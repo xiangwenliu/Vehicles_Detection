@@ -123,7 +123,7 @@ def upconv_2D(tensor, n_filter, flags, name):
 def make_unet(X, training, flags=None):
     """U-Net architecture
     """
-    net = X / 127.5
+    net = X / 127.5 - 1.0
     conv1, pool1 = conv_conv_pool(net, [8, 8], training, flags, name=1)
     conv2, pool2 = conv_conv_pool(pool1, [16, 16], training, flags, name=2)
     conv3, pool3 = conv_conv_pool(pool2, [32, 32], training, flags, name=3)
